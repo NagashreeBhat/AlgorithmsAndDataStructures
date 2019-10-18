@@ -1,5 +1,5 @@
-//Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
-bool isPalindrome(int x){
+// Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+public bool isPalindrome(int x){
 
         if(x < 0 || (x % 10 == 0 && x != 0)) {
         return false;

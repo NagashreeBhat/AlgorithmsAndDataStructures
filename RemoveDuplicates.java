@@ -1,6 +1,5 @@
 //Given a sorted linked list, delete all duplicates such that each element appear only once.
 
-
 public class RemoveDuplicates {
 
     public ListNode deleteDuplicates(ListNode head) {
@@ -14,4 +13,8 @@ public class RemoveDuplicates {
         }
         return head;
     }
+}
+
+class ListNode{
+    
 }
